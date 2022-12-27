@@ -1,0 +1,32 @@
+body
+{
+    background-color: #B3FFAE;
+}
+div
+{
+    padding: 5rem 2rem;
+    border-radius: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 12% auto;
+    font-family: 'Rubik', sans-serif;
+   -webkit-box-shadow: 0px 1px 11px 10px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 1px 11px 10px rgba(0,0,0,0.4);
+box-shadow: 0px 1px 11px 10px rgba(0,0,0,0.4);
+
+    width: 40%;
+}
+i{
+    font-size: 5rem;
+    color: #64d872;
+}
+button{
+    border-radius: 10px;
+    background-color: #64d872;
+    border: 0cm;
+    color: #ffffff;
+    width: 6rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
