@@ -23,14 +23,15 @@ app.post("/",function(req,res)
             {
                 email_address:email,
                 status: "subscribed",
-                    merge_feilds:
+                    merge_fields:
                     {
                     FNAME :Fname,
-                    LNAME :Lname
+                    LNAME :Lname 
                     }
             }
         ]
     };
+   console.log(Fname,Lname)
     const jsonData = JSON.stringify(data);
     const option = {
         method : "POST",
